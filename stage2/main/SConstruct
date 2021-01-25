@@ -1,0 +1,2 @@
+env = Environment(CPPPATH='h')
+env.Program(target='hello-world', source=['hello-world.cc', 'hello-greet.cc'])

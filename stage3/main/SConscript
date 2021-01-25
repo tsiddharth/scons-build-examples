@@ -1,0 +1,2 @@
+env = Environment(LIBPATH='#/lib', CPPPATH='#/lib', LIBS=['hello-time'])
+env.Program(target='hello-world', source=Glob('*.cc'))

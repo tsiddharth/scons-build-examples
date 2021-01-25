@@ -1,0 +1,12 @@
+scons: `.' is up to date.
++-.
+  +-SConstruct
+  +-hello-world
+  | +-hello-world.o
+  | | +-hello-world.cc
+  | | +-/bin/g++
+  | +-/bin/g++
+  +-hello-world.cc
+  +-hello-world.o
+    +-hello-world.cc
+    +-/bin/g++
